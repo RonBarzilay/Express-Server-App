@@ -2,10 +2,30 @@ const express = require("express");
 
 const app = express();
 
-app.listen(3000);
+// Which station listen to
+// Callback when listen works
+app.listen(3000, function () {
+  console.log("That's awesome, server started...");
+});
 
 app.get("/", function (req, res) {
-  res.send("Ron did it");
+  // I can console.log req properties and values
+  res.send("<h1><em>Ron did it</em></h1>");
+});
+
+app.get("/contact", function (req, res) {
+  // I can console.log req properties and values
+  res.send("Contact me on LinkdIn");
+});
+
+app.get("/about", function (req, res) {
+  // I can console.log req properties and values
+  res.send("<h1>About us</h1>");
+});
+
+app.get("/hobbies", function (req, res) {
+  // I can console.log req properties and values
+  res.send("<ol><li>Code</li><li>Sport</li></ol>");
 });
 
 // app.get("/phones", function (req, res) {

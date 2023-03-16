@@ -2,5 +2,23 @@
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "express-server-app",
+  "description": "Express-Server-App is an example of server development in Node.js using Express as a framework",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonBarzilay/Express-Server-App.git"
+  },
+  "author": "Ron Barzilay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonBarzilay/Express-Server-App/issues"
+  },
+  "homepage": "https://github.com/RonBarzilay/Express-Server-App#readme"
 }
